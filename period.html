@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Cycle Tracker</title>
+    <link rel="stylesheet" href=".\css\period.css" />
+  </head>
+  <body>
+    <h1>Period tracker</h1>
+    <form>
+      <fieldset>
+        <legend>Enter your period start and end date</legend>
+        <p>
+          <label for="start-date">Start date</label>
+          <input type="date" id="start-date" required />
+        </p>
+        <p>
+          <label for="end-date">End date</label>
+          <input type="date" id="end-date" required />
+        </p>
+      </fieldset>
+      <p>
+        <button type="submit">Add Period</button>
+      </p>
+      <div class="mySlides">
+        <div class="numbertext">1 / 3</div>
+        <img src=".\image\Exer1.jpg"
+        style="width: 200px;:height:200px; 
+        frame=" alt="Exercise 1">
+
+<div class="mySlides">
+  <div class="numbertext">2 / 3</div>
+  <img src=".\image\Exer2.jpg"
+  style="width:200px ;:height:200px; 
+  frame =" alt="Exercise 2">
+
+    </form>
+    <section id="past-periods"></section>
+    <script src=".\js\period.js"></script>
+  </body>
+</html>
